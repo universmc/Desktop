@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Electra</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Electra</h1>
+        <input type="text" id="search" placeholder="Rechercher un répertoire">
+        <button id="add-repo">Ajouter un répertoire</button>
+        <button id="refresh">Actualiser</button>
+    </header>
+
+    <main>
+        <section id="repo-list">
+            <h2>Liste des répertoires</h2>
+            <div id="repo-items">
+                </div>
+        </section>
+
+        <section id="repo-details">
+            <h2>Détails du répertoire</h2>
+            <div id="repo-info">
+                </div>
+        </section>
+    </main>
+
+    <script src="renderer.js"></script>
+</body>
+</html>
