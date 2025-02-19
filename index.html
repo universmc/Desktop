@@ -1,32 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <title>Electra</title>
-    <link rel="stylesheet" href="style.css">
+  <title>Image de fond</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Electra</h1>
-        <input type="text" id="search" placeholder="Rechercher un répertoire">
-        <button id="add-repo">Ajouter un répertoire</button>
-        <button id="refresh">Actualiser</button>
-    </header>
-
-    <main>
-        <section id="repo-list">
-            <h2>Liste des répertoires</h2>
-            <div id="repo-items">
-                </div>
-        </section>
-
-        <section id="repo-details">
-            <h2>Détails du répertoire</h2>
-            <div id="repo-info">
-                </div>
-        </section>
-    </main>
-
-    <script src="renderer.js"></script>
+  <div id="background-container">
+    <div id="conteneur-principal">
+        <div id="ordinateur">
+          <object data="objects/ordinateur.svg" type="image/svg+xml"></object>
+        </div>
+        <div id="tablette">
+          <object data="objects/tablette.svg" type="image/svg+xml"></object>
+          <div id="stylet">
+            <object data="objects/stylet.svg" type="image/svg+xml"></object>
+          </div>
+          <div id="carte">
+            <object data="objects/carte.svg" type="image/svg+xml"></object>
+          </div>
+        </div>
+      </div>
+  </div>
+  <script src="desktop.js"></script>
+  <script src="items/ordinateur.js"></script>
+  <script src="items/tablet.js"></script>
+  <script src="items/stylet.js"></script>
+  <script src="items/controller.js"></script>
+  <script src="items/carte.js"></script>
+  <script src="items/telephone.js"></script>
 </body>
 </html>
